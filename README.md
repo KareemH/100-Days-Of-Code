@@ -23,4 +23,9 @@
 ### Day 4: June 6, 2020
 **Topics Learned Today:**
 - **_Passport.js and OAuth 2.0_**
-  - OAuth was a beast in its own, so I had to extend my authentication learning for another day. OAuth was really interesting to implement, and the amount of functionality a developer can add seems endless. I only worked with Google OAuth which was fairly simple. There were some deprecation errors, so that meant a lot of researching to address these errors. I may want to explore OAuth for Spotify or Twitter third party authentication
+  - OAuth was a beast in its own, so I had to extend my authentication learning for another day. OAuth was actually very interesting to implement, and the amount of strategies a developer can utilize really showcases Passport's flexibility. I only worked with Google OAuth which was fairly simple. There were some deprecation errors, so that meant a lot of researching to address these errors. I may want to explore OAuth for Spotify or Twitter third party authentication
+
+### Day 5: June 7, 2020
+**Topics Learned Today:**
+- **_Passport.js Mini Project Using Local Strategy_**
+  - [Working Repository](https://github.com/KareemH/NodeJS-Express-Passport-Practice)
