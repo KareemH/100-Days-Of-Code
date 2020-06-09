@@ -29,3 +29,8 @@
 **Topics Learned Today:**
 - **_Passport.js Mini Project Using Local Strategy_**
   - [Working Repository](https://github.com/KareemH/NodeJS-Express-Passport-Practice)
+
+### Day 6: June 9, 2020
+**Topics Learned Today:**
+- **_Re-learninig Node.js_**
+  - In my quest to actively understand instead of passively learn, I have decided t re-learn JavaScript from the ground up. Fundamentals include values and variables, primitive data types, JavaScript quirks, etc. Most notably, I investigated more on the JS Console, intepreted vs compiled languages, and Chrome's V8 Engine (which hints at Node.js!). Today seemed like grunt work at first, but fundamentals are very important before advancing forwards. Learning is very cumulative, so I try not to undermine what I learn as it may rear its ugly head later on 
