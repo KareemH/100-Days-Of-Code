@@ -34,3 +34,12 @@
 **Topics Learned Today:**
 - **_Re-learninig JavaScript_**
   - In my quest to actively understand instead of passively learn, I have decided t re-learn JavaScript from the ground up. Fundamentals include values and variables, primitive data types, JavaScript quirks, etc. Most notably, I investigated more on the JS Console, intepreted vs compiled languages, and Chrome's V8 Engine (which hints at Node.js!). Today seemed like grunt work at first, but fundamentals are very important before advancing forwards. Learning is very cumulative, so I try not to undermine what I learn as it may rear its ugly head later on 
+
+### Day 7: June 10, 2020
+**Topics Learned Today:**
+- **_Re-learninig JavaScript_**
+  - Still some preliminary learning around comparison operators, conditional statments, logical operators, operator precedence, switch statements, ternary operators, arrays and reference types, objects (accessing through dot and bracket notation, nested arrays and objects, and array/object equality (previous knowledge on hardware and RAM guided my understanding of reference types)
+  
+### Day 8: June 11, 2020
+**Topics Learned Today:**
+- **_Re-learninig JavaScript_**
