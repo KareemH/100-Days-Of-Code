@@ -43,3 +43,5 @@
 ### Day 8: June 11, 2020
 **Topics Learned Today:**
 - **_Re-learninig JavaScript_**
+  - Exposed to different types of loops besides for and while loops and the implications of using for...of/for...in vs for/while loops when dealing with arrays and object properties (which are not explicitly iterable)
+  - Looking at several examples of how one may refactor her/his code really helps to be familiar with what I might see in the wild...
