@@ -53,3 +53,14 @@
   - Finally cleared up some misconceptions about callbacks. I knew how to use callback functions, but I never understood the underlying reason how and why they're implemented as a feature of JavaScript
   - Hoisting was a new concept for me
   - Practiced in using callback functions with popular array methods like `map`, `filter`, `reduce`
+
+### Day 10: June 13, 2020
+**Topics Learned Today:**
+- **_Re-learninig JavaScript_**
+  - Learned new JavaScript features such as rest parameters, array/object de-structuring, etc. I've seen these features in other people's code in the past and never really understood the underlying syntax. So, I think it was a good idea to re-learn JavaScript from the ground up as a lot of gaps are being filled
+
+### Day 11: June 14, 2020
+**Topics Learned Today:**
+- **_Re-learninig JavaScript_**
+  - The `this` method is most likely the main reason why I wanted to start over with my understanding of JavaScript. I gained a more clear grasp on execution scope and invocation context, allowing me to decide on best use cases of `this` in my code
+  - Refresher on the DOM and discerned between the window and document object (which confuses me at time on which is really the "global" object)
