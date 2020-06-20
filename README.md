@@ -63,4 +63,37 @@
 **Topics Learned Today:**
 - **_Re-learninig JavaScript_**
   - The `this` method is most likely the main reason why I wanted to start over with my understanding of JavaScript. I gained a more clear grasp on execution scope and invocation context, allowing me to decide on best use cases of `this` in my code
-  - Refresher on the DOM and discerned between the window and document object (which confuses me at time on which is really the "global" object)
+  - Refresher on the DOM and discerned between the window and document object (which confuses which is really the "global" object)
+
+### Day 12: June 15, 2020
+**Topics Learned Today:**
+- **_Re-learninig JavaScript_**
+  - Learned about DOM manipulation without jQuery. Although I like jQuery, it encapsulates too much detail about how the DOM is traversed, so I needed to practice this topic with vanilla JavaScript
+  - Learned about basic selection methods
+
+### Day 13: June 16, 2020
+**Topics Learned Today:**
+- **_Re-learninig JavaScript_**
+  - Continued learning about the DOM, especially updating inline styles. Really interesting to see how a style object overwrites a stylesheet
+  - Manipulating classes
+  - Creating elements and inserting based on an element's relationship with other nodes in the DOM
+  - Adding event listeners: [Chasing wealth game](https://codepen.io/Kareem41/pen/OJMpXRY)
+
+### Day 14: June 17, 2020
+**Topics Learned Today:**
+- **_Re-learninig JavaScript_**
+  - Demystified the asynchronous concepts of JS. This was a more conceptual study session rather than actual coding, but it was still very much essential. I could finally see the need for callbacks (which should be call-after, in my opinion) in asynchronous programming. [Helpful demo I found online](http://latentflip.com/loupe/?code=JC5vbignYnV0dG9uJywgJ2NsaWNrJywgZnVuY3Rpb24gb25DbGljaygpIHsKICAgIHNldFRpbWVvdXQoZnVuY3Rpb24gdGltZXIoKSB7CiAgICAgICAgY29uc29sZS5sb2coJ1lvdSBjbGlja2VkIHRoZSBidXR0b24hJyk7ICAgIAogICAgfSwgMjAwMCk7Cn0pOwoKY29uc29sZS5sb2coIkhpISIpOwoKc2V0VGltZW91dChmdW5jdGlvbiB0aW1lb3V0KCkgewogICAgY29uc29sZS5sb2coIkNsaWNrIHRoZSBidXR0b24hIik7Cn0sIDUwMDApOwoKY29uc29sZS5sb2coIldlbGNvbWUgdG8gbG91cGUuIik7!!!PGJ1dHRvbj5DbGljayBtZSE8L2J1dHRvbj4%3D)
+  - I have worked with Promises before, but I never understood the syntax or need for them. I finally clarified my understanding of the resolve and reject methods, investigated on Promise status, `.then()` and `.catch()` chaining methods, etc.
+
+### Day 15: June 18, 2020
+**Topics Learned Today:**
+- **_Re-learninig JavaScript_**
+  - When I was first introduced to HTTP, I was immediately introduced to the client-friendly `axios`. However, I wanted to know what actually led up to a light-weight library like `axios`, so I decided to backtrack to AJAX and XML to understand the evolution of making HTTP requests. I researched how developers transitioned from XMLHttpRequest to Fetch to Axios and many other HTTP client libraries. With JSON being so omnipresent, shouldn't AJAX be renamed to AJAJ 🤔
+  - Moved onto async/await, the syntactical sugar for Promises. I haved used async/await before in a project, but with a rudimentary understanding of what goes on behind the scenes (which led to a lot of unecessary bugs). I find async/await a friendly alternative that gives off a pseudo-synchronous behavior (which is great for me considering I came from a C++ background of sequential execution)
+
+### Day 16: June 19, 2020
+**Topics Learned Today:**
+- **_Re-learninig JavaScript_**
+  - I never understood the purpose of `__proto__` in objects whenever I performed `console.log`.So, I had to research the concept of a "prototype," which resembles the features of inheritance in C++. However, I realize `__proto__` does much more in allowing multiple objects point to the same type, allowing objects to point to and share common methods rather than save their own copy which wastes memory space.
+  - Had to distinguish `.prototype` vs `__proto__`
+  - Learned about JavaScript's take on OOP. I researched how classes arose from the inconvenience of factory functions and plain constructors. Also, I familiarized myself with `extends` and `super`, which I have seen in React (pre-hooks) many times
