@@ -97,3 +97,33 @@
   - I never understood the purpose of `__proto__` in objects whenever I performed `console.log`.So, I had to research the concept of a "prototype," which resembles the features of inheritance in C++. However, I realize `__proto__` does much more in allowing multiple objects point to the same type, allowing objects to point to and share common methods rather than save their own copy which wastes memory space.
   - Had to distinguish `.prototype` vs `__proto__`
   - Learned about JavaScript's take on OOP. I researched how classes arose from the inconvenience of factory functions and plain constructors. Also, I familiarized myself with `extends` and `super`, which I have seen in React (pre-hooks) many times
+
+
+### Day 17: June 20, 2020
+**Topics Learned Today:**
+- **_JavaScript Timer Project_**
+  - I wanted to make a timer/stopwatch app (because the world needs another one of those 😂). However, I wanted to implement some new features along the way. So far, I:
+    - Learned about Event vs class based architecture
+    - Clarified more complexities around the `this` keyword
+    - Learned abou getters and setters
+    - Played around with SVGs and explored the preliminary math on how SVGs are positioned on a page
+    - Created animation-like effects to my timer as the time decremented
+    - Played around with font awesome
+
+### Day 18: June 21, 2020
+**Topics Learned Today:**
+- **_Appliciation Design Patterns_**
+  - I wanted to explore the formalized best practices surrounding programming, rather than writing code that only I can understand
+  - I'm starting to wireframe a lot on draw.io because the visual representation of an app can really help address issues and give rise to edge cases we may not recognize initially
+  - Will start a project about comparing the stats of popular movies to practice the way I design and architect my code
+
+### Day 19: June 22, 2020
+**Topics Learned Today:**
+- **_Movie Fight Project_**
+  - Explored with the OMDBapi to retireve data about movies. I did a lot of console.logging to really understand what type of data I was getting back
+  - Movie Fight will be a web app that compares the different numerics based on the data the API returns. I will plan on comparing total amount of awards, box office, meta score, IMDB rating, and IMDB votes between exactly two movies. Higher stats will be placed in a green card, while lower stats will be placed in a yellow card.
+  - So far, I wanted to implement an autocomplete widget from scratch, like how Google has an autocomplete dropdown search bar. Users can type in a movie and the autocomplete dropdown will be populated with the queried movie and associated movie poster. This will take awhile to implement...
+
+### Day 20: June 23, 2020
+**Topics Learned Today:**
+- **_Movie Fight Project_**
