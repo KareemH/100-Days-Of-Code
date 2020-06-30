@@ -132,3 +132,4 @@
   - Had to refactor the autocomplete widget into a reusable function that can be easily duplicated on the view without duplicating the actual code
   - A lot of parsing of data and little tweaks (such as broken images or automatically closing the autocomplete after a certain delay) to make the app more presentable and robust
   - The app is finished! However, API keys are not properly stored since this is all implemented on the front end.......
+  - [See the finished product](https://github.com/KareemH/Movie-Fight-App)
