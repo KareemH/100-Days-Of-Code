@@ -127,3 +127,8 @@
 ### Day 20: June 23, 2020
 **Topics Learned Today:**
 - **_Movie Fight Project_**
+  - Autocomplete search bar is finished! It took a lot of functionality and refactoring to get it to work properly. For instance, I had to practice writing debounce functions to delay the call to the movie API unless the user stopped typing in the search input
+  - More practice on async/await to retrieve movie data and render their information
+  - Had to refactor the autocomplete widget into a reusable function that can be easily duplicated on the view without duplicating the actual code
+  - A lot of parsing of data and little tweaks (such as broken images or automatically closing the autocomplete after a certain delay) to make the app more presentable and robust
+  - The app is finished! However, API keys are not properly stored since this is all implemented on the front end.......
