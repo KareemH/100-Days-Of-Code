@@ -162,5 +162,6 @@
   - Onto rendering objects on the screen! Basically, a circle object will move through the maze to reach an end goal. I have to provide event listeners for keydown events and do some research on how velocity works in Matter.js so that the circle's movements were fluid and not choppy
   - Also, I had to add code to detect when a circle did reach the goal
   - Then, I spent the rest of the day to refactor the maze into an actual game where the maze get's progressively harder each level. A user's data is stored on the browser's memory (there are a few bugs that I haven't addressed involving reseting a game and clearing out)
+  - [Working Demo](https://github.com/KareemH/Maze-Game)
   
   
