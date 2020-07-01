@@ -133,3 +133,34 @@
   - A lot of parsing of data and little tweaks (such as broken images or automatically closing the autocomplete after a certain delay) to make the app more presentable and robust
   - The app is finished! However, API keys are not properly stored since this is all implemented on the front end.......
   - [See the finished product](https://github.com/KareemH/Movie-Fight-App)
+
+### Day 21: June 24, 2020
+**Topics Learned Today:**
+- **_Working with Matter.js_**
+  - I've wanted to make a simple game through JavaScript for a long time now. Especially a game reminiscent of 2000s flash games. But with the discontinuation of Flash and the rise in popularity of gaming engines like Unity, I don't think making a mere game is even possible anymore
+  - I started to look into Matter.js, a 2D physics engine for the web, where a lot of people were using this library as a base to code some simple games and further extend their JS knowledge
+  - I spent a lot of today getting familiar with the documentation and setting up some boilerplate code
+  - I started to experiment with Matter.js through the creation of borders and several types of shapes. Ultimately, I want all of this to result in a classic maze game
+
+### Day 22: June 25, 2020
+**Topics Learned Today:**
+- **_Working with Matter.js_**
+  - It was time to start the maze generation algorithm, which took a long time to grasp and implement. I had to take into account the overall grid in respect with the horizontal and vertical walls that separate cells in the grid
+  - After some extensive console.log's to make sure the maze was created correctly as a 2D array, I tried to implement a shuffling algorithm to randomly generate a maze
+  - Now, in order to generate the maze, I had to implement a recursive function to knock down a wall at random and create a path from the starting point to finish
+  - Let's jus say there was a lot of debugging involved
+
+### Day 23: June 26, 2020
+**Topics Learned Today:**
+- **_Working with Matter.js_**
+  - Continuation of the above journal log, just some more refactoring
+
+### Day 24: June 27, 2020
+**Topics Learned Today:**
+- **_Working with Matter.js_**
+  - The logic around maze generation is now completed
+  - Onto rendering objects on the screen! Basically, a circle object will move through the maze to reach an end goal. I have to provide event listeners for keydown events and do some research on how velocity works in Matter.js so that the circle's movements were fluid and not choppy
+  - Also, I had to add code to detect when a circle did reach the goal
+  - Then, I spent the rest of the day to refactor the maze into an actual game where the maze get's progressively harder each level. A user's data is stored on the browser's memory (there are a few bugs that I haven't addressed involving reseting a game and clearing out)
+  
+  
