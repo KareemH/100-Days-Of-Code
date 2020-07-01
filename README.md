@@ -164,4 +164,19 @@
   - Then, I spent the rest of the day to refactor the maze into an actual game where the maze get's progressively harder each level. A user's data is stored on the browser's memory (there are a few bugs that I haven't addressed involving reseting a game and clearing out)
   - [Working Demo](https://github.com/KareemH/Maze-Game)
   
-  
+### Day 25: June 28, 2020
+**Topics Learned Today:**
+- **_Understanding more about the URL_**
+  - After some very involved projects, I wanted to do something light and extend my understanding of the URL
+  - I wanted to create a 
+
+### Day 26: June 29, 2020
+**Topics Learned Today:**
+- **_Creating my own ls command?_**
+  - I wanted to revisit Node.js and learn more about modules, the module wrapper function, the require cache, and debugging with Node from the CLI
+  - I attempted to make my own version of the ls command by using Node modules such as `fs` to mimic its functionality, with the added touch of distinct highlighting to distinguish if something was a file or a folder
+
+### Day 27: June 30, 2020
+**Topics Learned Today:**
+- **_An e-commerce app_**
+  -
