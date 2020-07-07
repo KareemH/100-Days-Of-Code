@@ -178,5 +178,42 @@
 
 ### Day 27: June 30, 2020
 **Topics Learned Today:**
-- **_An e-commerce app_**
-  -
+- **_An e-commerce app - The Beginning_**
+  - I wanted to hone my skills in file-structure and practice laying out the foundation of an app's architecture. So, what better way to do that by creating an e-commerce application!
+  - So far, I am laying the boilerplate of the project, using Amazon's e-commerce functionality as a base. Users won't have to sign in, but administrators do
+  - I imitated a templating engine (like Handlebars oor EJS) from scratch to get some practice with JS
+
+### Day 28: June 30, 2020
+**Topics Learned Today:**
+- **_An e-commerce app - Creating a custom database_**
+  - Instead of using a database like MongoDB or SQL, I decided to create a custom database using JSON objects instead. This is purely for practice, since a database service is clearly the way to go
+  - I created a repository folder to hold classes of different types and implemented my own CRUD operations using `async/await` and native Node modules like `crypto` and `fs`
+  - Implemented validator logic as middleware using `express-validator`
+
+### Day 29: July 1, 2020
+**Topics Learned Today:**
+- **_An e-commerce app - Authentication_**
+ - I remember using Passport.js and feeling like the library encapsulated so much going on behind the scenes with authentication. It was great to offload the heavy duty work of verifying users to Passport.js, but it left a lot to the imagination
+ - I practice with the good ol' `cookie session` to create a session for a logged-in admin. Also, I updated my repository for creating users to implement hashed and salted passwords by using native Node modules like `util`
+
+### Day 30: July 2, 2020
+**Topics Learned Today:**
+- **_An e-commerce app - File Structure_**
+  - Although my teachers recommend modularity, they never really taught best practices on how to divide one's code up into reusable parts. So, I decided to take on this very tedious task on my first try
+  - I had to refactor my templating engine logic by re-organizing my views folders and layouts
+  - Improve the validation and sanitze user input submission
+  - Scavenge the entire project for repeated code and encapsulated it into a reusable helper function that can be easily passed around
+
+
+### Day 31: July 3, 2020
+**Topics Learned Today:**
+- **_An e-commerce app - Images_**
+  - What's an e-commerce app without images?
+  - I started to research the vast approached to image upload and the different methods of image storage, and it was really beyond my reach. However, I wanted to store images on my json file (the pseduo-database) along with the product information about the image
+  - I found a work around using multi-part forms and experimenting with the file buffer of the image as well
+  - I had to refactor my edit routes if an admin ever wanted to edit an existing product and its image
+
+### Day 32: July 4, 2020
+**Topics Learned Today:**
+- **_An e-commerce app - Finishing Touches _**
+  - A lot of styling was accomplished today, and it was nice to take a break from all the back-end logic
